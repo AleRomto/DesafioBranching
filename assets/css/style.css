@@ -1,0 +1,66 @@
+body {
+  background-color: #A9C9FF;
+  background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
+  
+  }
+
+.container {
+  padding-top: 30px;
+} 
+  
+h1 {
+  color: #fff;
+  font-family: 'Space Mono', monospace;
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 300;
+}
+  
+img {
+  max-width: 40%;
+  padding: 20px;
+  display: block;
+  margin: 0 auto;
+}
+
+form {
+  padding: 30px;
+}
+  
+
+
+
+
+.btn {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  display: block;
+  position: relative;
+  background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%);
+  padding: 20px 80px;
+  margin: 0 auto;
+  border-radius: 20px;
+  box-shadow: 0 0 20px #eee;
+}
+  
+.btn a {
+    color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+
+.btn:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn:active {
+  box-shadow: none;
+  top: 6px; 
+} 
